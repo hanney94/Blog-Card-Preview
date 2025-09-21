@@ -19,7 +19,6 @@ body {
     border: 1px solid black;
     padding: 24px;
     max-width: 300px;
-    gap: 24px;
     box-shadow: 6px 6px;
 }
 
@@ -29,6 +28,7 @@ body {
     max-height: fit-content;
     overflow-clip-margin: content-box;
     overflow: clip;
+    margin-bottom: 24px;
 }
 
 .learning {
@@ -44,5 +44,14 @@ body {
     font-weight: 800;
     font-style: normal;
     border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.published {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
     font-size: 12px;
 }
