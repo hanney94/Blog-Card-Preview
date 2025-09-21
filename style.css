@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    align-items: center;
+
 }
 
 .card {
@@ -15,16 +15,34 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    align-items: center;
     border-radius: 10px;
     border: 1px solid black;
-}
-
-.image {
-    margin: 20px;
+    padding: 24px;
+    max-width: 300px;
+    gap: 24px;
+    box-shadow: 6px 6px;
 }
 
 .preview {
     border-radius: 10px;
-    max-width: 300px;
+    max-width: fit-content;
+    max-height: fit-content;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.learning {
+    max-width: fit-content;
+
+}
+
+.learning-text {
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px 12px 4px 12px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    border-radius: 5px;
+    font-size: 12px;
 }
