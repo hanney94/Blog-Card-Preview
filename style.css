@@ -18,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 1px solid black;
     padding: 24px;
     max-width: 300px;
@@ -27,8 +27,6 @@ body {
 
 .preview {
     border-radius: 10px;
-    max-width: fit-content;
-    max-height: fit-content;
     overflow-clip-margin: content-box;
     overflow: clip;
     margin-bottom: 24px;
@@ -65,10 +63,22 @@ body {
     font-size: 14px;
     font-weight: 500 ;
     color: hsl(0, 0%, 42%);
-    margin-bottom: 12px;
+    margin-bottom: 24px;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
 }
 
 .auth {
     width: 32px;
     height: 32px;
+}
+
+.name {
+    font-weight: 800;
+    font-size: 14px;
 }
